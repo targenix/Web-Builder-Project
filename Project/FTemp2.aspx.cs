@@ -62,7 +62,7 @@ public partial class FTemp2 : System.Web.UI.Page
         //mail.Attachments.Add(attachment);
 
         SmtpServer.Port = 587;
-        SmtpServer.Credentials = new System.Net.NetworkCredential("clickandbuild2024@gmail.com", "hbpy bict tcwl sxqm");
+        SmtpServer.Credentials = new System.Net.NetworkCredential("clickandbuild2024@gmail.com", "****Your APPPASSKEY****");
         SmtpServer.EnableSsl = true;
 
         SmtpServer.Send(mail);
